@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Task/static/css/main.69eda509.chunk.css",
-    "main.js": "/Task/static/js/main.ca0e2324.chunk.js",
-    "main.js.map": "/Task/static/js/main.ca0e2324.chunk.js.map",
-    "runtime-main.js": "/Task/static/js/runtime-main.1fc37d87.js",
-    "runtime-main.js.map": "/Task/static/js/runtime-main.1fc37d87.js.map",
-    "static/js/2.498b8e53.chunk.js": "/Task/static/js/2.498b8e53.chunk.js",
-    "static/js/2.498b8e53.chunk.js.map": "/Task/static/js/2.498b8e53.chunk.js.map",
-    "index.html": "/Task/index.html",
-    "precache-manifest.adf0140a59a46f91cb3c6e917e8b6b7a.js": "/Task/precache-manifest.adf0140a59a46f91cb3c6e917e8b6b7a.js",
-    "service-worker.js": "/Task/service-worker.js",
-    "static/css/main.69eda509.chunk.css.map": "/Task/static/css/main.69eda509.chunk.css.map",
-    "static/js/2.498b8e53.chunk.js.LICENSE.txt": "/Task/static/js/2.498b8e53.chunk.js.LICENSE.txt"
+    "main.css": "/Task/planets/static/css/main.69eda509.chunk.css",
+    "main.js": "/Task/planets/static/js/main.63c2a4a1.chunk.js",
+    "main.js.map": "/Task/planets/static/js/main.63c2a4a1.chunk.js.map",
+    "runtime-main.js": "/Task/planets/static/js/runtime-main.8217d651.js",
+    "runtime-main.js.map": "/Task/planets/static/js/runtime-main.8217d651.js.map",
+    "static/js/2.d4d0d317.chunk.js": "/Task/planets/static/js/2.d4d0d317.chunk.js",
+    "static/js/2.d4d0d317.chunk.js.map": "/Task/planets/static/js/2.d4d0d317.chunk.js.map",
+    "index.html": "/Task/planets/index.html",
+    "precache-manifest.8a5f82aac396ae0ad7438d2ad92af57b.js": "/Task/planets/precache-manifest.8a5f82aac396ae0ad7438d2ad92af57b.js",
+    "service-worker.js": "/Task/planets/service-worker.js",
+    "static/css/main.69eda509.chunk.css.map": "/Task/planets/static/css/main.69eda509.chunk.css.map",
+    "static/js/2.d4d0d317.chunk.js.LICENSE.txt": "/Task/planets/static/js/2.d4d0d317.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1fc37d87.js",
-    "static/js/2.498b8e53.chunk.js",
+    "static/js/runtime-main.8217d651.js",
+    "static/js/2.d4d0d317.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.ca0e2324.chunk.js"
+    "static/js/main.63c2a4a1.chunk.js"
   ]
 }
