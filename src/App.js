@@ -25,7 +25,7 @@ function App() {
         <Navbar />
         <Container>
           <Switch>
-            <Route exact path="/planets" component={PlanetsList} />
+            <Route exact path="/" component={PlanetsList} />
             <Route exact path="/planets/:planetName" component={Planet} />
 
             <Route exact path="/starships" component={StarshipsList} />
@@ -34,7 +34,7 @@ function App() {
             <Route exact path="/vehicles" component={VehiclesList} />
             <Route exact path="/vehicles/:vehicleName" component={Vehicle} />
 
-            <Redirect to="/planets" />
+            <Redirect to="/" />
           </Switch>
         </Container>
       </div>

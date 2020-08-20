@@ -28,7 +28,7 @@ export const Planet = ({ match }) => {
         </Info>
       </InfoContainer>
 
-      <Link to="/planets">
+      <Link to="/">
         <Button>Back</Button>
       </Link>
     </>
