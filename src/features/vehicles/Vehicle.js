@@ -28,7 +28,7 @@ export const Vehicle = ({ match }) => {
         </Info>
       </InfoContainer>
 
-      <Link to="/vehicles">
+      <Link to="/Task/vehicles">
         <Button>Back</Button>
       </Link>
     </>

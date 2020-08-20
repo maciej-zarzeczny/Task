@@ -28,7 +28,7 @@ export const Starship = ({ match }) => {
         </Info>
       </InfoContainer>
 
-      <Link to="/starships">
+      <Link to="/Task/starships">
         <Button>Back</Button>
       </Link>
     </>

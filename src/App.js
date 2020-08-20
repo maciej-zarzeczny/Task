@@ -25,16 +25,16 @@ function App() {
         <Navbar />
         <Container>
           <Switch>
-            <Route exact path="/" component={PlanetsList} />
-            <Route exact path="/planets/:planetName" component={Planet} />
+            <Route exact path="/Task/" component={PlanetsList} />
+            <Route exact path="/Task/planets/:planetName" component={Planet} />
 
-            <Route exact path="/starships" component={StarshipsList} />
-            <Route exact path="/starships/:starshipName" component={Starship} />
+            <Route exact path="/Task/starships" component={StarshipsList} />
+            <Route exact path="/Task/starships/:starshipName" component={Starship} />
 
-            <Route exact path="/vehicles" component={VehiclesList} />
-            <Route exact path="/vehicles/:vehicleName" component={Vehicle} />
+            <Route exact path="/Task/vehicles" component={VehiclesList} />
+            <Route exact path="/Task/vehicles/:vehicleName" component={Vehicle} />
 
-            <Redirect to="/" />
+            <Redirect to="/Task" />
           </Switch>
         </Container>
       </div>

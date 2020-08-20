@@ -27,15 +27,15 @@ export const Navbar = () => {
   return (
     <NavWrapper>
       <ul>
-        <Link to="/">
+        <Link to="/Task/">
           <NavItem>Planets</NavItem>
         </Link>
 
-        <Link to="starships">
+        <Link to="/Task/starships">
           <NavItem>Starships</NavItem>
         </Link>
 
-        <Link to="vehicles">
+        <Link to="/Task/vehicles">
           <NavItem>Vehicles</NavItem>
         </Link>
       </ul>
