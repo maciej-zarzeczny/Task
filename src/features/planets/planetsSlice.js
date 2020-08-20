@@ -8,7 +8,7 @@ const initialState = {
 };
 
 export const fetchPlanets = createAsyncThunk("planets/fetchPlanets", async () => {
-  const response = await axios.get("https://swapi.dev/api/planets");
+  const response = await axios.get("https://swapi.dev/api/planets/");
   return response.data.results;
 });
 

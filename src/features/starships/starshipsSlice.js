@@ -8,7 +8,7 @@ const initialState = {
 };
 
 export const fetchStarships = createAsyncThunk("starships/fetchStarships", async () => {
-  const response = await axios.get("https://swapi.dev/api/starships");
+  const response = await axios.get("https://swapi.dev/api/vehicles/");
   return response.data.results;
 });
 

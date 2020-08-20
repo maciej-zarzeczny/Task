@@ -15,7 +15,7 @@ export const VehiclesList = () => {
   const Vehicle = ({ vehicle }) => (
     <DataRow>
       <p>{vehicle.name}</p>
-      <Link to={`/vehicles/${vehicle.name}`}>
+      <Link to={`/Task/vehicles/${vehicle.name}`}>
         <Button>More info</Button>
       </Link>
     </DataRow>

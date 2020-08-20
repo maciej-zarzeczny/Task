@@ -15,7 +15,7 @@ export const PlanetsList = () => {
   const Planet = ({ planet }) => (
     <DataRow>
       <p>{planet.name}</p>
-      <Link to={`/planets/${planet.name}`}>
+      <Link to={`/Task/planets/${planet.name}`}>
         <Button>More info</Button>
       </Link>
     </DataRow>
